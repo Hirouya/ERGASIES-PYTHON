@@ -27,10 +27,10 @@ def calmult(numfol,wordsum):
     return ans
 
 #συνδεση με twitter
-consumer_key = "Wy0JyQqfcM7iwfa7qY44oAePO"
-consumer_secret = "KlRHOsByO9pPlUwjcaJpwHQ64vaXrh4nEfEfbXbhgpXsW2MZjj"
-access_key = "1096818404214956033-mqFCxpdnuwAGOfpKdyaQcMb0yEm0GR"
-access_secret = "NtHdMrzuwhgDtZm7dsOjN96MRaRJq4CCVij2WAEDwv7mb"
+consumer_key = ""
+consumer_secret = ""
+access_key = ""
+access_secret = ""
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth)
